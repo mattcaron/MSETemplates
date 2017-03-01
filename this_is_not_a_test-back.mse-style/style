@@ -15,6 +15,18 @@ card height: 742
 card dpi: 300
 
 card style:
+	back_notes:
+		left: 0
+		top: 545
+		width: 480
+		height: 190
+		alignment: top left
+		font:
+			name: Arial
+			size: 12
+			weight: bold
+			color: rgb(0, 0, 0)
+		z index: 1
 extra card field:
 	type: choice
 	name: card_back
@@ -30,4 +42,4 @@ extra card style:
 		render style: image
 		popup style: in place
 		choice images:
-			character: card_back.png
+			back: card_back.png

@@ -234,9 +234,9 @@ card style:
 		z index: 1
 	back_notes:
 		left: 505
-		top: 505
+		top: 545
 		width: 480
-		height: 240
+		height: 190
 		alignment: top left
 		font:
 			name: Arial
