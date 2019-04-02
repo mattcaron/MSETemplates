@@ -2,7 +2,7 @@
 short name: Pulp City Supreme
 full name:  Pulp City Supreme Cards
 icon: pulp_city.jpg
-position hint: 1
+position hint: 2
 installer group: pulpcity/Supremes
 version:1.2.4
 init script: include file: script

@@ -3,7 +3,7 @@ short name: dirtside2
 version: 1.0.0
 full name: Dirtside 2
 icon: icon.jpg
-position hint: 3
+position hint: 1
 installer group: dirtside2/default
 
 init script: include file: script

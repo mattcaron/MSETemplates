@@ -2,7 +2,7 @@
 short name: Frostgrave
 full name:  Frostgrave Creatures
 icon: frostgrave.jpg
-position hint: 2
+position hint: 3
 installer group: frostgrave/default
 version: 1.5.0
 init script: include file: script

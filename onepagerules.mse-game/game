@@ -3,7 +3,7 @@ short name: 1page
 version: 1.4.0
 full name: One Page Rules
 icon: icon.png
-position hint: 3
+position hint: 2
 installer group: onepage/default
 
 init script: include file: script

@@ -3,7 +3,7 @@ short name: TNT
 version: 1.0.0
 full name: This is Not a Test
 icon: TNT_icon.png
-position hint: 3
+position hint: 1
 installer group: this_is_not_a_test/default
 
 init script: include file: script

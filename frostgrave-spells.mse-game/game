@@ -2,7 +2,7 @@
 short name: Frostgrave
 full name:  Frostgrave Spells
 icon: frostgrave.jpg
-position hint: 2
+position hint: 3
 installer group: frostgrave/default
 version: 1.3.0
 init script: include file: script
