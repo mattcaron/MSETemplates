@@ -120,7 +120,7 @@ card field:
 card field:
 	type: text
 	name: injuries
-	description: Special Rules
+	description: Injuries
 	show statistics: false
 	card list visible: false
 	card list allow: false
@@ -128,7 +128,7 @@ card field:
 card field:
 	type: text
 	name: upkeep
-	description: Special Rules
+	description: Upkeep
 	show statistics: false
 	card list visible: false
 	card list allow: false
@@ -136,7 +136,7 @@ card field:
 card field:
 	type: text
 	name: unspent_xp
-	description: Special Rules
+	description: Unspent XP
 	show statistics: false
 	card list visible: false
 	card list allow: false
@@ -144,7 +144,7 @@ card field:
 card field:
 	type: text
 	name: total_xp
-	description: Special Rules
+	description: Total XP
 	show statistics: false
 	card list visible: false
 	card list allow: false
