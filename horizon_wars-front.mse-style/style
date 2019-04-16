@@ -1,0 +1,164 @@
+mse version: 2.0.0
+game: horizon_wars
+version: 1.0.0
+short name: Unit (Front)
+full name: Unit Card (Front Only)
+icon: icon.png
+position hint: 1
+installer group: horizon_wars/Unit-Front
+
+depends on:
+	package: horizon_wars.mse-game
+	
+card width: 750
+card height: 1043
+card dpi: 300
+
+card style:
+	name:
+		left: 50
+		top: 220
+		width: 440
+		height: 45
+		alignment: middle center
+		font:
+			name: Arial Black
+			size: 24
+			color: rgb(0, 0, 0)
+		z index: 1
+	presence:
+		left: 520
+		top: 215
+		width: 170
+		height: 50
+		alignment: middle center
+		font:
+			name: Arial Black
+			size: 24
+			weight: bold
+			color: rgb(0, 0, 0)
+		z index: 1
+	movement:
+		left: 50
+		top: 350
+		width: 145
+		height: 145
+		alignment: middle center
+		font:
+			name: Arial
+			size: 64
+			weight: bold
+			color: rgb(0, 0, 0)
+		z index: 1
+	movement_modified:
+		left: 220
+		top: 350
+		width: 145
+		height: 145
+		alignment: middle center
+		font:
+			name: Arial
+			size: 64
+			weight: bold
+			color: rgb(0, 0, 0)
+		z index: 1
+	firepower:
+		left: 395
+		top: 350
+		width: 140
+		height: 145
+		alignment: middle center
+		font:
+			name: Arial
+			size: 64
+			weight: bold
+			color: rgb(0, 0, 0)
+		z index: 1
+	firepower_modified:
+		left: 555
+		top: 350
+		width: 140
+		height: 145
+		alignment: middle center
+		font:
+			name: Arial
+			size: 64
+			weight: bold
+			color: rgb(0, 0, 0)
+		z index: 1
+	armour:
+		left: 50
+		top: 590
+		width: 145
+		height: 145
+		alignment: middle center
+		font:
+			name: Arial
+			size: 64
+			weight: bold
+			color: rgb(0, 0, 0)
+		z index: 1
+	armour_modified:
+		left: 220
+		top: 590
+		width: 145
+		height: 145
+		alignment: middle center
+		font:
+			name: Arial
+			size: 64
+			weight: bold
+			color: rgb(0, 0, 0)
+		z index: 1
+	defence:
+		left: 395
+		top: 590
+		width: 140
+		height: 145
+		alignment: middle center
+		font:
+			name: Arial
+			size: 64
+			weight: bold
+			color: rgb(0, 0, 0)
+		z index: 1
+	defence_modified:
+		left: 555
+		top: 590
+		width: 140
+		height: 145
+		alignment: middle center
+		font:
+			name: Arial
+			size: 64
+			weight: bold
+			color: rgb(0, 0, 0)
+		z index: 1
+	special:
+		left: 45
+		top: 940
+		width: 650
+		height: 65
+		alignment: top left
+		font:
+			name: Arial
+			size: 12
+			weight: bold
+			color: rgb(0, 0, 0)
+		z index: 1
+extra card field:
+	type: choice
+	name: unit_card
+	initial: unit
+	choice: unit
+extra card style:
+	unit_card:
+		left: 0
+		top: 0
+		width: 750
+		height: 1043
+		z index: 0
+		render style: image
+		popup style: in place
+		choice images:
+			unit: horizon_wars.png
