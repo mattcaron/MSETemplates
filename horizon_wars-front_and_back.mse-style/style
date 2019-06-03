@@ -143,7 +143,6 @@ card style:
 		font:
 			name: Arial
 			size: 12
-			weight: bold
 			color: rgb(0, 0, 0)
 		z index: 1
 extra card field:

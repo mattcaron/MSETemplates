@@ -71,3 +71,4 @@ card field:
 	description: Special
 	card list column: 7
 	card list visible: true
+	multi line: true
