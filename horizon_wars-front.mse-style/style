@@ -113,19 +113,7 @@ card style:
 	defence:
 		left: 395
 		top: 590
-		width: 140
-		height: 145
-		alignment: middle center
-		font:
-			name: Arial
-			size: 64
-			weight: bold
-			color: rgb(0, 0, 0)
-		z index: 1
-	defence_modified:
-		left: 555
-		top: 590
-		width: 140
+		width: 300
 		height: 145
 		alignment: middle center
 		font:
