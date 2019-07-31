@@ -1,0 +1,55 @@
+﻿mse version: 2.0.0
+short name: HW
+version: 1.0.0
+full name: Hardwired
+icon: HW_icon.png
+position hint: 1
+installer group: hardwired/default
+
+card field:
+	type: choice
+	name: sp
+	description: Specialization Protocol
+	choice: Ronin
+	choice: Razor
+	choice: Splicer
+	choice: Sawbones
+	choice: Shiver
+	choice: Drone
+	card list visible: true
+	card list column: 1
+card field:
+	type: text
+	name: name
+	description: Agent Name
+	card list column: 2
+	card list visible: true
+	identifying: true
+card field:
+	type: text
+	name: equipment_1
+	description: Equipment 1
+	card list column: 3
+	card list visible: true
+card field:
+	type: text
+	name: equipment_2
+	description: Equipment 2
+	card list column: 4
+	card list visible: true
+card field:
+	type: text
+	name: equipment_3
+	description: Equipment 3
+	card list column: 5
+	card list visible: true
+card field:
+	type: image
+	name: img_description
+	description: Miniature image
+	editable: true
+	show statistics: false
+	card list visible: false
+	card list allow: false
+	save value: true
+

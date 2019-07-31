@@ -1,0 +1,101 @@
+mse version: 2.0.0
+game: Hardwired
+depends on: Hardwired.mse-game 1.0.0
+version: 1.0.0
+short name: Agent (w/ Pic)
+full name: Agent Card (With Picture)
+icon: icon.png
+position hint: 2
+installer group: hardwired/agent-front_w_pic
+
+depends on:
+	package: hardwired.mse-game
+	
+card width: 822
+card height: 1122
+card dpi: 300
+
+card style:
+	name:
+		left: 275
+		top: 120
+		width: 470
+		height: 90
+		alignment: middle left
+		font:
+			name: Arial White
+			size: 36
+			color: rgb(255, 255, 255)
+		z index: 1
+	equipment_1:
+		left: 175
+		top: 465
+		width: 565
+		height: 80
+		alignment: middle left
+		font:
+			name: Arial Black
+			size: 36
+			color: rgb(0, 0, 0)
+		z index: 1
+	equipment_2:
+		left: 175
+		top: 570
+		width: 565
+		height: 80
+		alignment: middle left
+		font:
+			name: Arial
+			size: 36
+			color: rgb(0, 0, 0)
+		z index: 1
+	equipment_3:
+		left: 175
+		top: 675
+		width: 565
+		height: 80
+		alignment: middle left
+		font:
+			name: Arial
+			size: 36
+			color: rgb(0, 0, 0)
+		z index: 1
+	sp:
+		top: 115
+		left: 120
+		height: 90
+		width: 90
+		render style: image
+		popup style: in place
+		z index: 2
+		choice images:
+			Ronin: ronin_sp.png
+			Razor: razor_sp.png
+			Splicer: splicer_sp.png
+			Sawbones: sawbones_sp.png
+			Shiver: shiver_sp.png
+			Drone: drone.png
+	img_description:
+		left: 330
+		top: 230
+		width: 200
+		height: 225
+		z index: -1
+		
+extra card field:
+	type: choice
+	name: unit_card
+	initial: unit
+	choice: unit
+extra card style:
+	unit_card:
+		left: 0
+		top: 0
+		width: 822
+		height: 1122
+		z index: 0
+		render style: image
+		popup style: in place
+		mask: hardwired_mask.png
+		choice images:
+			unit: hardwired.png
